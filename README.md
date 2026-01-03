@@ -46,7 +46,6 @@ The final dataset includes **42 countries**, analyzed as a cross-sectional sampl
 
 ## Key Model
 𝐼𝑛𝑡𝑒𝑟𝑛𝑎𝑙𝑇𝑟𝑎𝑑𝑒𝑖=𝛽𝑜 +𝛽1𝑅𝐴𝐼𝑖+𝛽2𝐺𝐷𝑃𝑝𝑐𝑖+𝛽3𝑃𝑜𝑝𝑖+𝛽4𝐿𝑎𝑛𝑑𝑖+ 𝜀𝑖
-Where:
 - i: indexes countries
 - InternalTrade = internal trade as a share of GDP
 - 𝜀𝑖: error term 
