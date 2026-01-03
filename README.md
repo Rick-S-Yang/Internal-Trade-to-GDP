@@ -1,7 +1,7 @@
 # Internal Trade to GDP  
 ### Political Decentralization and Domestic Market Integration
 
-📊 *Applied econometric analysis using real-world cross-country data to examine how political decentralization affects internal trade intensity.*
+ *Applied econometric analysis using real-world cross-country data to examine how political decentralization affects internal trade intensity.*
 
 ---
 
