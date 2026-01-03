@@ -6,7 +6,7 @@
 ---
 
 ## Project Overview
-This project analyzes the relationship between **political decentralization** and **internal trade as a share of GDP** across countries.  
+This group project analyzes the relationship between **political decentralization** and **internal trade as a share of GDP** across countries.  
 Internal trade reflects domestic market integration and economic coordination, while political decentralization captures the degree of authority held by subnational governments.
 
 Using cross-country data and econometric analysis in **R**, this project evaluates whether higher regional authority is associated with weaker internal economic integration.
