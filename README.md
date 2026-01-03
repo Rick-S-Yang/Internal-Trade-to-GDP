@@ -93,7 +93,7 @@ The final dataset includes **42 countries**, analyzed as a cross-sectional sampl
 
 
 ## Notes
-This project focuses on analytical reasoning and empirical interpretation rather than prediction.  
-It is designed to demonstrate applied economic analysis using real-world institutional and trade data.
+This project was completed collaboratively as a **group assignment**.  
+My primary contributions focused on **data processing, econometric modeling support, interpretation of results, and presentation of findings**.
 
 
