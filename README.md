@@ -1,70 +1,96 @@
 # Internal Trade to GDP  
-### Empirical Analysis on Political Decentralization and Domestic Trade Integration
+### Political Decentralization and Domestic Market Integration
+
+📊 *Applied econometric analysis using real-world cross-country data to examine how political decentralization affects internal trade intensity.*
+
+---
 
 ## Project Overview
-This project investigates the relationship between **political decentralization** and the **share of internal trade in GDP** across countries.  
-Using cross-country panel data and econometric analysis in **R**, the project aims to understand how institutional structures influence domestic market integration and economic activity.
+This project analyzes the relationship between **political decentralization** and **internal trade as a share of GDP** across countries.  
+Internal trade reflects domestic market integration and economic coordination, while political decentralization captures the degree of authority held by subnational governments.
 
-The analysis focuses on whether higher levels of decentralization are associated with changes in internal trade intensity, with implications for economic coordination and policy design.
+Using cross-country data and econometric analysis in **R**, this project evaluates whether higher regional authority is associated with weaker internal economic integration.
 
 ---
 
 ## Research Question
-- How does political decentralization affect a country’s **internal trade as a percentage of GDP**?
-- Does decentralization strengthen or weaken domestic economic integration?
+- Does greater political decentralization reduce internal trade as a share of GDP?
+- How do institutional structures influence domestic economic integration?
 
 ---
 
 ## Data Sources
-The analysis uses publicly available and widely cited datasets, including:
+The analysis combines multiple authoritative international datasets:
 
-- **World Bank** – macroeconomic indicators (GDP, trade measures)
-- **Regional Authority Index (RAI)** – political decentralization indicators
-- **World Input-Output Database (WIOD)** – internal trade and production data
+- **World Input-Output Database (WIOD)**  
+  Measures interregional trade flows within countries across industries.
+- **Regional Authority Index (RAI)**  
+  Quantifies political decentralization and regional autonomy.
+- **World Bank Open Data**  
+  Provides macroeconomic controls including GDP per capita, population, and land area.
 
-The final dataset consists of panel data covering **42 countries** across multiple years.
+The final dataset includes **42 countries**, analyzed as a cross-sectional sample for **2014**.
 
 ---
 
 ## Methodology
-- Cleaned and merged multi-source international datasets using **R**
-- Constructed key variables for internal trade intensity and decentralization
-- Conducted econometric regression analysis to estimate relationships between institutional and trade variables
-- Applied economic reasoning to interpret coefficient signs and magnitudes
+- Merged and cleaned multi-source international datasets using **R**
+- Constructed internal trade intensity as internal trade divided by national GDP
+- Estimated multiple linear regression models with:
+  - Dependent variable: Internal trade (% of GDP)
+  - Key independent variable: Regional Authority Index (RAI)
+  - Controls: GDP per capita, population, land area
+- Conducted robustness checks including nonlinear income specifications and outlier exclusion
+
+---
+
+## Core Empirical Insight
+
+![Internal Trade vs Regional Authority](images/1.png)
+
+*Scatter plot illustrating the negative relationship between political decentralization (RAI) and internal trade as a share of GDP across 42 countries in 2014. The fitted regression line highlights a consistent downward trend.*
 
 ---
 
 ## Key Findings
-- Countries with higher levels of political decentralization tend to exhibit **lower internal trade-to-GDP ratios**
-- Results suggest that decentralization may reduce domestic trade integration due to increased regional fragmentation
+- Higher levels of political decentralization are **consistently associated with lower internal trade intensity**
+- The negative relationship remains statistically significant after controlling for economic development, population size, and geographic scale
+- Robustness checks confirm that results are not driven by extreme observations or model specification choices
+
+---
+
+## Economic Interpretation & Implications
+- Greater regional authority may introduce regulatory fragmentation, administrative barriers, or coordination challenges that weaken domestic market integration
+- While decentralization can improve local governance and representation, it may impose trade-offs in terms of economic efficiency
 - Findings highlight the importance of institutional coordination in sustaining integrated national markets
 
 ---
 
-## Economic and Policy Implications
-- Strong domestic market integration plays a critical role in economic resilience and efficiency  
-- Policymakers should consider trade-offs between regional autonomy and national economic coordination  
-- The results provide insight into how governance structures can influence internal economic linkages
-
----
-
 ## Technical Skills Demonstrated
-- Data cleaning and manipulation in **R**
-- Cross-country panel data analysis
-- Econometric reasoning and interpretation
-- Translating empirical results into economic insights
+- Data cleaning and integration in **R**
+- Cross-country data analysis
+- Econometric modeling and robustness testing
+- Translating statistical results into economic and policy insights
 
 ---
 
 ## Repository Contents
-- `Group project code.R` – R script for data cleaning, analysis, and regression modeling
+- `Group project code.R` — R script for data processing, regression analysis, and visualization
+- `images/` — folder containing key visualization used in the analysis
+- `Project Final Report.pdf` — full academic report with methodology and robustness checks
 
-## Content Preview
-![Internal Trade to GDP Distribution](images/1.png)
+---
 
+## How to Reproduce the Analysis
+1. Clone this repository  
+2. Open `Group project code.R` in RStudio  
+3. Install required R packages if prompted  
+4. Run the script to reproduce figures and regression results
 
-
+---
 
 ## Notes
-This project emphasizes analytical thinking and empirical interpretation rather than predictive modeling, aligning with economic research and policy-oriented analysis.
+This project focuses on analytical reasoning and empirical interpretation rather than prediction.  
+It is designed to demonstrate applied economic analysis using real-world institutional and trade data.
+
 
