@@ -66,7 +66,7 @@ The final dataset includes **42 countries**, analyzed as a cross-sectional sampl
 
 ---
 
-## Technical Skills Demonstrated
+## Technical Skills
 - Data cleaning and integration in **R**
 - Cross-country data analysis
 - Econometric modeling and robustness testing
@@ -81,13 +81,6 @@ The final dataset includes **42 countries**, analyzed as a cross-sectional sampl
 
 ---
 
-## How to Reproduce the Analysis
-1. Clone this repository  
-2. Open `Group project code.R` in RStudio  
-3. Install required R packages if prompted  
-4. Run the script to reproduce figures and regression results
-
----
 
 ## Notes
 This project focuses on analytical reasoning and empirical interpretation rather than prediction.  
