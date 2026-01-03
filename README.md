@@ -44,7 +44,18 @@ The final dataset includes **42 countries**, analyzed as a cross-sectional sampl
 
 ---
 
-## Core Empirical Insight
+## Key Model
+𝐼𝑛𝑡𝑒𝑟𝑛𝑎𝑙𝑇𝑟𝑎𝑑𝑒𝑖=𝛽𝑜 +𝛽1𝑅𝐴𝐼𝑖+𝛽2𝐺𝐷𝑃𝑝𝑐𝑖+𝛽3𝑃𝑜𝑝𝑖+𝛽4𝐿𝑎𝑛𝑑𝑖+ 𝜀𝑖
+Where:
+● i: indexes countries
+● InternalTrade = internal trade as a share of GDP
+● : error term 𝜀𝑖
+● RAI: regional authority index:
+● GDPpc: GDP per capita
+● Pop: Population
+● Land: Land area (km²)
+
+## Key Empirical Insight
 
 ![Internal Trade vs Regional Authority](images/1.png)
 
