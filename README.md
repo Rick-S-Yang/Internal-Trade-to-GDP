@@ -1,5 +1,5 @@
 # Internal Trade to GDP  
-### Reginoal Authority and Domestic Market Integration
+### Regional Authority and Domestic Market Integration
 
  *Applied econometric analysis using real-world cross-country data to examine how political decentralization affects internal trade intensity.*
 
