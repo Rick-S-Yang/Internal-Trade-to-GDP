@@ -1,13 +1,13 @@
 # Internal Trade to GDP  
-### Political Decentralization and Domestic Market Integration
+### Reginoal Authority and Domestic Market Integration
 
- *Applied econometric analysis using real-world cross-country data to examine how regional authority affects internal trade intensity.*
+ *Applied econometric analysis using real-world cross-country data to examine how political decentralization affects internal trade intensity.*
 
 ---
 
 ## Project Overview
 This group project analyzes the relationship between **political decentralization** and **internal trade as a share of GDP** across countries.  
-Internal trade reflects domestic market integration and economic coordination, while political decentralization captures the degree of authority held by subnational governments.
+Internal trade reflects domestic market integration and economic coordination, while political decentralization captures the degree of regional authority held by subnational governments.
 
 Using cross-country data and econometric analysis in **R**, this project evaluates whether higher regional authority is associated with weaker internal economic integration.
 
