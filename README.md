@@ -21,12 +21,6 @@ The objective is to understand how internal trade contributes to overall economi
 - Changes in trade activity are associated with observable movements in GDP levels
 - Visualization helps reveal long-term trends and cyclical patterns in trade-driven economic output
 
-## Sample Visualizations
-*(Key charts generated from the analysis are shown below)*
-
-<!-- 如果你有图，就在这里嵌入 -->
-<!-- ![Trade to GDP Trend](figures/trade_to_gdp_trend.png) -->
-
 ## Tools & Skills
 - R (data cleaning, analysis, visualization)
 - Economic data analysis
