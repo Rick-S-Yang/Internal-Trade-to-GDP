@@ -60,7 +60,7 @@ The final dataset consists of panel data covering **42 countries** across multip
 - `Group project code.R` – R script for data cleaning, analysis, and regression modeling
 
 ## Content Preview
-![Internal Trade to GDP Distribution](images/internal_trade_distribution.png)
+![Internal Trade to GDP Distribution](images/1.png)
 
 
 
