@@ -14,7 +14,7 @@ Using cross-country data and econometric analysis in **R**, this project evaluat
 ---
 
 ## Research Question
-- Does greater political decentralization reduce internal trade as a share of GDP?
+- Does Greater Regional Authority in a Federal System Reduce Internal Trade as a Share of National GDP?
 - How do institutional structures influence domestic economic integration?
 
 ---
