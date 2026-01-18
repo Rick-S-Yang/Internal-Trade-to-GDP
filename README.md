@@ -92,7 +92,6 @@ The final dataset includes **42 countries**, analyzed as a cross-sectional sampl
 
 
 ## Notes
-This project was completed collaboratively as a **group assignment**.  
-My primary contributions focused on **data processing, econometric modeling support, interpretation of results, and presentation of findings**.
+This project was completed collaboratively as a **group assignment**. My primary contributions focused on **data processing, econometric modeling support, interpretation of results, and presentation of findings**.
 
 
